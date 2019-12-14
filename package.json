@@ -1,0 +1,19 @@
+{
+  "name": "power-my-vscode",
+  "version": "0.0.1",
+  "description": "Give my VScode some power!",
+  "scripts": {
+    "postinstall": "code --install-extension msjsdiag.debugger-for-chrome",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melbarch/power-my-vscode.git"
+  },
+  "author": "melbarch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melbarch/power-my-vscode/issues"
+  },
+  "homepage": "https://github.com/melbarch/power-my-vscode#readme"
+}
