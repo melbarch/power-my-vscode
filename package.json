@@ -1,10 +1,10 @@
 {
   "name": "power-my-vscode",
-  "version": "0.0.1",
-  "description": "Give my VScode some power!",
+  "version": "1.0.0",
+  "description": "Give my VS Code super powers!",
+  "bin": "index.js",
   "scripts": {
-    "postinstall": "code --install-extension msjsdiag.debugger-for-chrome",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/melbarch/power-my-vscode/issues"
   },
-  "homepage": "https://github.com/melbarch/power-my-vscode#readme"
+  "homepage": "https://github.com/melbarch/power-my-vscode#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
 }
