@@ -6,7 +6,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const { promisify } = require('util');
 const asyncExec = promisify(exec);
-
+const path = require('path');
 const readFileAsync = promisify(fs.readFile);
 
 const chalk = require('chalk');
@@ -74,7 +74,7 @@ const loadSettingsFromFile = async filePath => {
     log(chalk.bold.red('Not yet implemented'));
     process.exit(1);
   } else {
-    settings = await loadSettingsFromFile('.vs-extensions.json');
+    settings = await loadSettingsFromFile(path.join( __dirname + '/.vs-extensions.json'));
   }
 
   const vsMarketPlaceItems = settings.extensions;
