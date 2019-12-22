@@ -1,0 +1,15 @@
+{
+  "extensions" :[
+      "dbaeumer.vscode-eslint",
+      "ms-vscode.vscode-typescript-tslint-plugin",
+      "wix.vscode-import-cost",
+      "msjsdiag.debugger-for-chrome",
+      "kisstkondoros.vscode-codemetrics",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "mikestead.dotenv",
+      "ritwickdey.LiveServer",
+      "DotJoshJohnson.xml",
+      "ms-vscode.PowerShell",
+      "sdras.night-owl"
+    ]
+}
