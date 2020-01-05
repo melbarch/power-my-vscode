@@ -8,8 +8,8 @@
 <img src="https://img.shields.io/npm/v/power-my-vscode.svg"/>
 
 
-This package allows you to synchronize your VS Code Setup across your computers (Home's laptop, at work, fresh installations, ...).</br>
-If you change compiter or run a fresh installation, one command line will give give back powers to your VSCode.
+This package allows you to synchronize your VS Code extensions across your computers (Home's laptop, at work, fresh installations, ...).</br>
+If you change your computer or run a fresh installation, one command line will give back powers to your VSCode.
 
 ## Usage :
 Tool's command line offers multiple workflow possibilities :
