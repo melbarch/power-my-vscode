@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 'use strict';
 
-const program = require('commander');
-const { exec } = require('child_process');
-const fs = require('fs');
-const { promisify } = require('util');
+import chalk from 'chalk';
+import { program } from 'commander';
+import { exec } from 'child_process';
+import * as fs from 'fs';
+import { promisify } from 'util';
+
 const asyncExec = promisify(exec);
-const path = require('path');
 const readFileAsync = promisify(fs.readFile);
 
-const chalk = require('chalk');
 const log = console.log;
 
 let failures = 0;
@@ -30,6 +30,7 @@ const installExtension = async extentionId => {
 };
 
 const loadSettingsFromFile = async filePath => {
+  console.log(filePath.toString());
   return JSON.parse(await readFileAsync(filePath, 'utf8'));
 };
 
@@ -74,7 +75,8 @@ const loadSettingsFromFile = async filePath => {
     log(chalk.bold.red('Not yet implemented'));
     process.exit(1);
   } else {
-    settings = await loadSettingsFromFile(path.join( __dirname + '/.vs-extensions.json'));
+    const confFile = new URL('.vs-extensions.json', import.meta.url);
+    settings = await loadSettingsFromFile(confFile);
   }
 
   const vsMarketPlaceItems = settings.extensions;

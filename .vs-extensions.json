@@ -1,20 +1,14 @@
 {
   "extensions": [
+    "ms-vscode.vscode-typescript-next",
+    "dsznajder.es7-react-js-snippets",
     "dbaeumer.vscode-eslint",
-    "ms-vscode.vscode-typescript-tslint-plugin",
-    "wix.vscode-import-cost",
-    "msjsdiag.debugger-for-chrome",
-    "CoenraadS.bracket-pair-colorizer-2",
-    "mikestead.dotenv",
     "ritwickdey.LiveServer",
     "DotJoshJohnson.xml",
     "ms-vscode.PowerShell",
     "sdras.night-owl",
     "bradlc.vscode-tailwindcss",
-    "albymor.increment-selection",
     "esbenp.prettier-vscode",
-    "jpoissonnier.vscode-styled-components",
-    "ms-vsliveshare.vsliveshare",
     "NuclleaR.vscode-extension-auto-import",
     "teabyii.ayu"
   ]

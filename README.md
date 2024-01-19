@@ -33,21 +33,6 @@ code --list-extensions
 ````
 Save the result of the command on your fork's file *.vs-extensions.json* or another file on your computer or over the internet depending on the workflow that suits you.
 
-## Default extensions
-List of available extensions by default :
-
-- **[Import cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)**
-- **[Debugger for chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**
-- **[Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**
-- **[TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)**
-- **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**
-- **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**
-- **[DotENV syntax highlighting](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)**
-- **[Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)**
-- **[XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)**
-- **[PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)**
-- My prefered theme : **[Nightowl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)**
-
 ## License
 
 MIT © [Mohamed EL BARCHANY](https://melbarch.com)

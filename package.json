@@ -1,8 +1,11 @@
 {
   "name": "power-my-vscode",
-  "version": "1.2.0",
-  "description": "Give my VS Code super powers!",
-  "bin": "index.js",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Install a default set of preferred vscode extensions automatically!",
+  "bin": {
+    "power-my-vscode": "index.js"
+  },
   "scripts": {
     "lint": "eslint index.js"
   },
@@ -17,13 +20,13 @@
   },
   "homepage": "https://github.com/melbarch/power-my-vscode#readme",
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^8.56.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=20"
   },
   "dependencies": {
-    "chalk": "^3.0.0",
-    "commander": "^4.0.1"
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0"
   }
 }
